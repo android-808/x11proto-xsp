@@ -1,0 +1,14 @@
+Source: x11proto-xsp
+Section: x11
+Priority: optional
+Maintainer: Daniel Stone <daniel.stone@nokia.com>
+Build-Depends-Indep: debhelper (>= 4.0.0)
+Standards-Version: 3.6.1.0
+
+Package: x11proto-xsp-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, x11-common
+Pre-Depends: x11-common (>= 1:1.0)
+Description: X11 XSP extension wire protocol
+ This package provides the wire protocol for the XSP extension, used to
+ configure various aspects of the Xomap X server.

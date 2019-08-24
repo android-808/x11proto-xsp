@@ -1,0 +1,24 @@
+		Xsp
+	  Xsp Extension
+	    Version 1.0
+	      2005-01-05
+
+This package contains header files and documentation for the Xsp
+extension.  Library and server implementations are separate.
+
+Lauri Leukkunen <lauri.leukkunen@nokia.com
+
+
+
+There are two users for Xsp: end-user calibration application,
+and the media player. Currently only the media player part is 
+documented here.
+
+
+Xsp functions and events relevant for Media Player:
+
+Functions
+*********
+
+
+
